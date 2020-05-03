@@ -1,0 +1,43 @@
+.swipeable {
+  padding-top: 50px;
+  text-align: center;
+  img {
+    width: 60%;
+  }
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  .dot {
+    margin: 0 5px;
+    width: 8px;
+    height: 8px;
+    background: #c4c4c4;
+    border-radius: 50%;
+
+    &.active {
+      background: #516be8;
+    }
+  }
+}
+
+.login-button-component {
+  background: #fff;
+  height: 100px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  box-shadow: 0px -1px 20px rgba(0, 0, 0, 0.25);
+
+  .login-btn {
+    background: #516be8;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 7px 45px;
+    margin-top: 25px;
+  }
+}
