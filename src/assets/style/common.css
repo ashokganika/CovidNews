@@ -4,5 +4,45 @@ body {
   background: #e5e5e5;
 }
 .gap {
-  margin: 5px 0;
+  height: 5px;
+}
+.gap.x2 {
+  height: 10px;
+}
+.wrap {
+  width: 90%;
+  margin: auto;
+}
+.flex {
+  display: flex;
+}
+.flex.jcb {
+  justify-content: space-between;
+}
+.flex.ci {
+  align-items: center;
+}
+.img-pos {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.knowMoreBtn {
+  background: #ff7854;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  border: 0;
+  padding: 7px 20px;
+  color: white;
+  margin-top: 12px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.hgap {
+  height: 1px;
+  width: 10px;
+}
+.hgap.x2 {
+  width: 20px;
 }

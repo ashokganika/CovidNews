@@ -1,0 +1,28 @@
+.status-bar {
+  margin-bottom: 20px;
+  flex: 1;
+  position: relative;
+}
+.status-bar .key-value {
+  margin-bottom: 0px;
+}
+.status-bar .key-value .key,
+.status-bar .key-value .value {
+  font-weight: 700;
+  font-size: 12px;
+  margin-top: 0px;
+}
+.status-bar .bar {
+  padding-top: 0px;
+  height: 6px;
+  border-radius: 6px;
+  position: absolute;
+}
+.status-bar .bar.complete {
+  background-color: #e5e5e5;
+  width: 100%;
+  z-index: 0;
+}
+.status-bar .bar.full {
+  z-index: 1;
+}

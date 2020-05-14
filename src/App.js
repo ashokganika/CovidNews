@@ -1,17 +1,16 @@
 import React from "react";
-import OnBoarding from "./component/onBoarding/onBoarding";
+import { Switch, Route } from "react-router-dom";
+import OnBoardingViews from "./views/onBoarding/onBoarding";
+import CompleteRegistration from "./views/registration/completeRegistration";
+import HomeView from "./views/home/homeView/homeView";
 
 function App() {
   return (
-    <div>
-      <OnBoarding />
-      <div className="login-button-component">
-        <div className="login-btn">
-          {/* google image */}
-          Login with Google
-        </div>
-      </div>
-    </div>
+    <Switch>
+      <Route path="/" exact component={OnBoardingViews}></Route>
+      <Route path="/registration" component={CompleteRegistration}></Route>
+      <Route path="/home" component={HomeView}></Route>
+    </Switch>
   );
 }
 
