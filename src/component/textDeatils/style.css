@@ -1,0 +1,22 @@
+.text-detail {
+  background: #ffffff;
+  border: 1px solid #f2f2f2;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 9px 15px;
+  cursor: pointer;
+}
+.text-detail .text-shape .shape {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #516be8;
+  margin-right: 10px;
+}
+.text-detail .text-shape p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0;
+}

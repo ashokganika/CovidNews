@@ -3,8 +3,11 @@ import contactImg from "../../../assets/images/phone-call.svg";
 import NewsImg from "../../../assets/images/Group.svg";
 import ChatImg from "../../../assets/images/message.svg";
 import MoreImg from "../../../assets/images/bullhorn.svg";
+import Events from "../../../assets/images/Group.svg";
 import colors from "../../../utils/colors";
-
+import IconButton, {
+  IconButtonSheet,
+} from "../../../component/home/IconButtonComponent/IconButton";
 import {
   AppBar,
   StaySafeText,
@@ -15,11 +18,35 @@ import {
 } from "../../../component/home/homeComponent";
 
 export default function HomeView({ history }) {
+  const [visible, setVisibility] = React.useState(false);
+
   const handleContact = () => {
     history.push("/registration");
   };
+
   return (
     <section className="home-view">
+      <IconButton visible={visible} onClose={() => setVisibility(false)}>
+        <IconButtonSheet color={colors.purple} text="Events" icon={Events} />
+        <IconButtonSheet
+          color={colors.yellow}
+          text="Survey"
+          icon={Events}
+          onClick={() => history.push("/survey")}
+        />
+        <IconButtonSheet
+          color={colors.blue}
+          text="Reports"
+          icon={Events}
+          onClick={() => history.push("/report")}
+        />
+        <IconButtonSheet
+          color={colors.green}
+          text="Notice"
+          icon={Events}
+          onClick={() => history.push("/notice")}
+        />
+      </IconButton>
       <div className="wrap">
         <AppBar user="Guest" />
         <StaySafeText />
@@ -46,7 +73,7 @@ export default function HomeView({ history }) {
             color={colors.yellow}
             text="More"
             image={NewsImg}
-            onClick={() => handleContact()}
+            onClick={() => setVisibility(true)}
           />
         </div>
         <div className="gap x2 "></div>

@@ -1,0 +1,19 @@
+.sec-screen-head .nav-bar .shape {
+  width: 44px;
+  height: 44px;
+  position: relative;
+  border-radius: 6px;
+}
+.sec-screen-head .nav-bar .text {
+  margin-left: 10px;
+}
+.sec-screen-head .nav-bar .text .title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+}
+.sec-screen-head .nav-bar .text .subtitle {
+  margin: 0;
+  font-size: 12px;
+  font-weight: #555;
+}
