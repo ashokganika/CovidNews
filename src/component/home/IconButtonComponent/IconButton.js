@@ -2,7 +2,9 @@ import React from "react";
 import "./style.scss";
 
 export default function IconButton({ onClose, visible, children }) {
-  if (visible) document.body.style.overflowY = "hidden";
+  React.useEffect(() => {
+    if (visible) document.body.style.overflowY = "hidden";
+  }, [visible]);
 
   const handleOverlayClose = () => {
     if (onClose) {

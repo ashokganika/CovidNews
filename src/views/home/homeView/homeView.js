@@ -27,7 +27,12 @@ export default function HomeView({ history }) {
   return (
     <section className="home-view">
       <IconButton visible={visible} onClose={() => setVisibility(false)}>
-        <IconButtonSheet color={colors.purple} text="Events" icon={Events} />
+        <IconButtonSheet
+          color={colors.purple}
+          text="Events"
+          icon={Events}
+          onClick={() => history.push("/event")}
+        />
         <IconButtonSheet
           color={colors.yellow}
           text="Survey"
