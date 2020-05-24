@@ -66,7 +66,7 @@ export default function HomeView({ history }) {
             color={colors.orange}
             text="News"
             image={MoreImg}
-            onClick={() => handleContact()}
+            onClick={() => history.push("/news")}
           />
           <BtnIcon
             color={colors.purple}
