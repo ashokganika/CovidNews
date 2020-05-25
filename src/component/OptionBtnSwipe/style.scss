@@ -1,0 +1,44 @@
+.option-button-swipe {
+  background: rgba(255, 120, 84, 0.22);
+  border-radius: 30px;
+  padding: 10px 15px;
+  width: 80%;
+  height: 20px;
+  margin: auto;
+  position: relative;
+  margin-bottom: 20px;
+  .button1 {
+    position: absolute;
+    text-align: center;
+
+    border-radius: 30px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    padding-top: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    &.bg {
+      background: #ff7854;
+    }
+  }
+  .button2 {
+    position: absolute;
+    width: 50%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    // background: #ff7854;
+    border-radius: 30px;
+    padding-top: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    &.bg {
+      background: #ff7854;
+    }
+  }
+}

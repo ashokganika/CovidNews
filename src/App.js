@@ -8,6 +8,7 @@ import ReportView from "./views/Reports/report";
 import NoticeView from "./views/Notice/notice";
 import EventView from "./views/Event/eventView";
 import NewsView from "./views/news";
+import ContactView from "./views/contact";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Route path="/notice" component={NoticeView}></Route>
       <Route path="/event" component={EventView}></Route>
       <Route path="/news" component={NewsView}></Route>
+      <Route path="/contact" component={ContactView}></Route>
 
       <Route path="/test" component={Test}></Route>
     </Switch>
@@ -36,7 +38,7 @@ const Test = () => {
       setvalue(0);
       document.title = "inital";
     }
-  });
+  }, [value]);
 
   return (
     <>

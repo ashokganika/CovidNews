@@ -51,7 +51,7 @@ export const BtnIcon = ({ color, text, image, onClick }) => {
       <div className="shape" style={{ background: color }}>
         <img src={image} className="img-pos" alt=""></img>
       </div>
-      <p className="icon-text">{text && <p>{text}</p>}</p>
+      <p className="icon-text">{text}</p>
     </div>
   );
 };
