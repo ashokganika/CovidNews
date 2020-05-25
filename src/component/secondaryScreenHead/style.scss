@@ -8,16 +8,20 @@
     }
     .text {
       margin-left: 10px;
+      margin-top: 0;
       .title {
         margin: 0;
+        margin-top: 7px;
         font-size: 14px;
         font-weight: 900;
-        margin-bottom: 5px;
       }
       .subtitle {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 9px;
+        line-height: 11px;
+        color: #555555;
         margin: 0;
-        font-size: 12px;
-        font-weight: #555;
       }
     }
   }

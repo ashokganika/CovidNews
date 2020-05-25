@@ -85,10 +85,10 @@ export default function HomeView({ history }) {
         <KnowMore />
         <div className="gap x2 "></div>
         <div className="gap x2 "></div>
-        <NepalStatus />
+        <NepalStatus onClick={() => history.push("/nepal")} />
         <div className="gap x2 "></div>
         <div className="gap x2 "></div>
-        <GlobalStatus />
+        <GlobalStatus onClick={() => history.push("/global")} />
         <div className="gap x2 "></div>
       </div>
     </section>

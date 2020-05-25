@@ -9,6 +9,8 @@ import NoticeView from "./views/Notice/notice";
 import EventView from "./views/Event/eventView";
 import NewsView from "./views/news";
 import ContactView from "./views/contact";
+import Nepal from "./views/Nepal";
+import GloablInfo from "./views/global";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
       <Route path="/event" component={EventView}></Route>
       <Route path="/news" component={NewsView}></Route>
       <Route path="/contact" component={ContactView}></Route>
+      <Route path="/nepal" component={Nepal}></Route>
+      <Route path="/global" component={GloablInfo}></Route>
 
       <Route path="/test" component={Test}></Route>
     </Switch>

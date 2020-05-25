@@ -70,7 +70,7 @@ export const KnowMore = () => {
   );
 };
 
-export const NepalStatus = () => {
+export const NepalStatus = ({ onClick }) => {
   return (
     <div className="nepal-status">
       <div className="header flex jcb ">
@@ -81,7 +81,7 @@ export const NepalStatus = () => {
             <p className="nepal-updated">Updated: 8 min ago.</p>
           </div>
         </div>
-        <div className="right">
+        <div className="right" onClick={onClick && onClick}>
           <img src={ArrownBtn} alt=""></img>
         </div>
       </div>
@@ -111,7 +111,7 @@ export const NepalStatus = () => {
   );
 };
 
-export const GlobalStatus = () => {
+export const GlobalStatus = ({ onClick }) => {
   return (
     <div className="nepal-status">
       <div className="header flex jcb ">
@@ -122,7 +122,7 @@ export const GlobalStatus = () => {
             <p className="nepal-updated">Updated: 8 min ago.</p>
           </div>
         </div>
-        <div className="right">
+        <div className="right" onClick={onClick && onClick}>
           <img src={ArrownBtn} alt=""></img>
         </div>
       </div>
