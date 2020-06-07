@@ -16,16 +16,15 @@ import {
   NepalStatus,
   GlobalStatus,
 } from "../../../component/home/homeComponent";
+import InstaTest from "../../../component/InstaTest";
 
 export default function HomeView({ history }) {
   const [visible, setVisibility] = React.useState(false);
-
-  const handleContact = () => {
-    history.push("/registration");
-  };
+  const [seen, setSeen] = React.useState(false);
 
   return (
     <section className="home-view">
+      <InstaTest seen={seen} onClose={() => setSeen(false)} />
       <IconButton visible={visible} onClose={() => setVisibility(false)}>
         <IconButtonSheet
           color={colors.purple}
@@ -72,7 +71,7 @@ export default function HomeView({ history }) {
             color={colors.purple}
             text="Chat"
             image={ChatImg}
-            onClick={() => handleContact()}
+            onClick={() => setSeen(true)}
           />
           <BtnIcon
             color={colors.yellow}
