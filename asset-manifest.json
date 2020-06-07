@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/CovidNews/static/css/main.9198c37c.chunk.css",
+    "main.js": "/CovidNews/static/js/main.b5a90805.chunk.js",
+    "main.js.map": "/CovidNews/static/js/main.b5a90805.chunk.js.map",
+    "runtime-main.js": "/CovidNews/static/js/runtime-main.cd632e4b.js",
+    "runtime-main.js.map": "/CovidNews/static/js/runtime-main.cd632e4b.js.map",
+    "static/js/2.a6a520ae.chunk.js": "/CovidNews/static/js/2.a6a520ae.chunk.js",
+    "static/js/2.a6a520ae.chunk.js.map": "/CovidNews/static/js/2.a6a520ae.chunk.js.map",
+    "index.html": "/CovidNews/index.html",
+    "precache-manifest.1e8150512238b60421242e91a6f3464a.js": "/CovidNews/precache-manifest.1e8150512238b60421242e91a6f3464a.js",
+    "service-worker.js": "/CovidNews/service-worker.js",
+    "static/css/main.9198c37c.chunk.css.map": "/CovidNews/static/css/main.9198c37c.chunk.css.map",
+    "static/js/2.a6a520ae.chunk.js.LICENSE.txt": "/CovidNews/static/js/2.a6a520ae.chunk.js.LICENSE.txt",
+    "static/media/Group.svg": "/CovidNews/static/media/Group.946910c6.svg",
+    "static/media/arrow_back.svg": "/CovidNews/static/media/arrow_back.919e4e5c.svg",
+    "static/media/arrow_btn.svg": "/CovidNews/static/media/arrow_btn.f40b7cfa.svg",
+    "static/media/bullhorn.svg": "/CovidNews/static/media/bullhorn.0f47bdc7.svg",
+    "static/media/contactt.svg": "/CovidNews/static/media/contactt.1b92b64d.svg",
+    "static/media/covid.jpg": "/CovidNews/static/media/covid.502d24f0.jpg",
+    "static/media/details.svg": "/CovidNews/static/media/details.a5a381ce.svg",
+    "static/media/ekantipur.jpg": "/CovidNews/static/media/ekantipur.2c5785f8.jpg",
+    "static/media/event.svg": "/CovidNews/static/media/event.3fcc5740.svg",
+    "static/media/know_more.png": "/CovidNews/static/media/know_more.5b7dc716.png",
+    "static/media/location.svg": "/CovidNews/static/media/location.03ac8eb5.svg",
+    "static/media/message.svg": "/CovidNews/static/media/message.9d55817d.svg",
+    "static/media/more_vert.svg": "/CovidNews/static/media/more_vert.bad96b6a.svg",
+    "static/media/phone-call.svg": "/CovidNews/static/media/phone-call.669fab31.svg",
+    "static/media/read_news.svg": "/CovidNews/static/media/read_news.33048e8f.svg",
+    "static/media/report.svg": "/CovidNews/static/media/report.c3ae7b33.svg",
+    "static/media/stay_alert.svg": "/CovidNews/static/media/stay_alert.a035edf2.svg",
+    "static/media/stay_updated.svg": "/CovidNews/static/media/stay_updated.e20fe41a.svg",
+    "static/media/survey.svg": "/CovidNews/static/media/survey.5f871fb8.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cd632e4b.js",
+    "static/js/2.a6a520ae.chunk.js",
+    "static/css/main.9198c37c.chunk.css",
+    "static/js/main.b5a90805.chunk.js"
+  ]
+}
